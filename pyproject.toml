@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qewan"
+version = "0.1.0"
+description = "Prepare Quantum ESPRESSO + Wannier90 inputs from CIF files and generate cluster submission scripts."
+authors = [ { name = "Vinicius", email = "vinicius@example.com" } ]
+dependencies = ["ase", "click", "seekpath"]
+
+[tool.setuptools]
+packages = { find = { include = ["qewan*"] } }

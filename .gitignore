@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# IDE/editor
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Project outputs and caches
+demo_run/
+*.egg-info/
+.pytest_cache/
+
+# pip cache
+pip-wheel-metadata/

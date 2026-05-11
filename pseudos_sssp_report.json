@@ -1,0 +1,620 @@
+[
+  {
+    "filename": "Ac.us.z_11.ld1.psl.v1.0.0-high.upf",
+    "pseudo_type_attr": "USPP",
+    "inferred": "uspp",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"ADC\" date=\"23May2022\" comment=\"\" element=\"Ac\" pseudo_type=\"USPP\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"false\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"false\" has_gipaw=\"true\" paw_as_gipaw=\"false\" core"
+  },
+  {
+    "filename": "Ag_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Ag\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Al.pbe-n-kjpaw_psl.1.0.0.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"ADC\"\\n             date=\"10Oct2014\"\\n             comment=\"\"\\n             element=\"Al\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n"
+  },
+  {
+    "filename": "Am.paw.z_17.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Am\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Ar_ONCV_PBE-1.1.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Ar\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "As.pbe-n-rrkjus_psl.0.2.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "uspp",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.0.99 svn rev. 10869'\\n             author=\"ADC\"\\n             date=\"10Apr2014\"\\n             comment=\"\"\\n             element=\"As\"\\n             pseudo_type=\"USPP\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n      "
+  },
+  {
+    "filename": "At.us.z_17.ld1.psl.v1.0.0-high.upf",
+    "pseudo_type_attr": "USPP",
+    "inferred": "uspp",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"ADC\" date=\"23May2022\" comment=\"\" element=\"At\" pseudo_type=\"USPP\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"false\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"false\" has_gipaw=\"true\" paw_as_gipaw=\"false\" core"
+  },
+  {
+    "filename": "Au_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Au\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Ba.pbe-spn-kjpaw_psl.1.0.0.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"ADC\"\\n             date=\"10Oct2014\"\\n             comment=\"\"\\n             element=\"Ba\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n"
+  },
+  {
+    "filename": "Bi_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Bi                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   15.00000000000      Z valence\\n -184.40800793800      Total energy\\n"
+  },
+  {
+    "filename": "Bk.paw.z_19.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Bk\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "C.pbe-n-kjpaw_psl.1.0.0.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"ADC\"\\n             date=\"10Oct2014\"\\n             comment=\"\"\\n             element=\" C\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n"
+  },
+  {
+    "filename": "Ca_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Ca                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   10.00000000000      Z valence\\n  -74.78527912240      Total energy\\n"
+  },
+  {
+    "filename": "Cd.pbe-dn-rrkjus_psl.0.3.1.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "uspp",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.0.99 svn rev. 10869'\\n             author=\"ADC\"\\n             date=\"10Apr2014\"\\n             comment=\"\"\\n             element=\"Cd\"\\n             pseudo_type=\"USPP\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n      "
+  },
+  {
+    "filename": "Ce.paw.z_12.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:03:33.414\"\\n             element=\"Ce\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Cf.paw.z_20.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Cf\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Cm.paw.z_18.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Cm\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Co_pbe_v1.2.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Co                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   17.00000000000      Z valence\\n -297.21516027500      Total energy\\n"
+  },
+  {
+    "filename": "Cs_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Cs                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n    9.00000000000      Z valence\\n  -63.00384417630      Total energy\\n"
+  },
+  {
+    "filename": "Cu.paw.z_11.ld1.psl.v1.0.0-low.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"ADC\" date=\"27May2022\" comment=\"\" element=\"Cu\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_cor"
+  },
+  {
+    "filename": "Dy.paw.z_20.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:15:45.868\"\\n             element=\"Dy\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Er.paw.z_22.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:16:16.540\"\\n             element=\"Er\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Es.paw.z_21.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Es\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Eu.paw.z_17.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:13:58.475\"\\n             element=\"Eu\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Fe.pbe-spn-kjpaw_psl.0.2.1.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.0.99 svn rev. 10869'\\n             author=\"ADC\"\\n             date=\"10Apr2014\"\\n             comment=\"\"\\n             element=\"Fe\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n       "
+  },
+  {
+    "filename": "Fm.paw.z_22.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Fm\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Fr.paw.z_19.ld1.psl.v1.0.0-high.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"ADC\" date=\"27May2022\" comment=\"\" element=\"Fr\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_cor"
+  },
+  {
+    "filename": "Ga.pbe-dn-kjpaw_psl.1.0.0.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"ADC\"\\n             date=\"10Oct2014\"\\n             comment=\"\"\\n             element=\"Ga\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n"
+  },
+  {
+    "filename": "Gd.paw.z_18.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:14:30.342\"\\n             element=\"Gd\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "H.pbe-rrkjus_psl.1.0.0.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "uspp",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"Lorenzo Paulatto\"\\n             date=\"10Oct2014\"\\n             comment=\"\"\\n             element=\" H\"\\n             pseudo_type=\"USPP\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n           "
+  },
+  {
+    "filename": "He_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"He\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Hf-sp.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"170214\"\\n       comment=\"\"\\n       element=\"Hf\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Hg_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Hg\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Ho.paw.z_21.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:15:57.713\"\\n             element=\"Ho\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "I.pbe-n-kjpaw_psl.0.2.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.0.99 svn rev. 10869'\\n             author=\"ADC\"\\n             date=\"10Apr2014\"\\n             comment=\"\"\\n             element=\" I\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n       "
+  },
+  {
+    "filename": "In.pbe-dn-rrkjus_psl.0.2.2.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "uspp",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.0.99 svn rev. 10869'\\n             author=\"ADC\"\\n             date=\"10Apr2014\"\\n             comment=\"\"\\n             element=\"In\"\\n             pseudo_type=\"USPP\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n      "
+  },
+  {
+    "filename": "Ir_pbe_v1.2.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Ir                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   15.00000000000      Z valence\\n -180.87378719900      Total energy\\n"
+  },
+  {
+    "filename": "K.pbe-spn-kjpaw_psl.1.0.0.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"ADC\"\\n             date=\"10Oct2014\"\\n             comment=\"\"\\n             element=\" K\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n"
+  },
+  {
+    "filename": "Kr_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Kr\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "La.paw.z_11.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:01:43.313\"\\n             element=\"La\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Lr.paw.z_25.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Lr\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Lu.paw.z_25.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:17:37.606\"\\n             element=\"Lu\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Md.paw.z_23.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Md\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.0.99 svn rev. 10869'\\n             author=\"ADC\"\\n             date=\"10Apr2014\"\\n             comment=\"\"\\n             element=\"Mg\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n       "
+  },
+  {
+    "filename": "Mo_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Mo\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "N.pbe-n-radius_5.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "uspp",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"ivca\"\\n             date=\"11Dec2014\"\\n             comment=\"\"\\n             element=\" N\"\\n             pseudo_type=\"USPP\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"F\""
+  },
+  {
+    "filename": "Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.0.99 svn rev. 10869'\\n             author=\"ADC\"\\n             date=\"10Apr2014\"\\n             comment=\"\"\\n             element=\"Nb\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n       "
+  },
+  {
+    "filename": "Nd.paw.z_14.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:06:11.803\"\\n             element=\"Nd\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Ne_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Ne\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "No.paw.z_24.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"No\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Np.paw.z_15.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Np\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.0.99 svn rev. 10869'\\n             author=\"Lorenzo Paulatto, modified by ADC\"\\n             date=\"10Apr2014\"\\n             comment=\"\"\\n             element=\" O\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n        "
+  },
+  {
+    "filename": "Os_pbe_v1.2.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Os                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   16.00000000000      Z valence\\n -197.45714768200      Total energy\\n"
+  },
+  {
+    "filename": "P.pbe-n-rrkjus_psl.1.0.0.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "uspp",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"ADC\"\\n             date=\"10Oct2014\"\\n             comment=\"\"\\n             element=\" P\"\\n             pseudo_type=\"USPP\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"F\"\\"
+  },
+  {
+    "filename": "Pa.paw.z_13.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Pa\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Pb.pbe-dn-kjpaw_psl.0.2.2.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.0.99 svn rev. 10869'\\n             author=\"ADC\"\\n             date=\"10Apr2014\"\\n             comment=\"\"\\n             element=\"Pb\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n       "
+  },
+  {
+    "filename": "Pd_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Pd\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Pm.paw.z_15.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:13:09.766\"\\n             element=\"Pm\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Po.pbe-dn-rrkjus_psl.1.0.0.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "uspp",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"ADC\"\\n             date=\"10Oct2014\"\\n             comment=\"\"\\n             element=\"Po\"\\n             pseudo_type=\"USPP\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"F\"\\"
+  },
+  {
+    "filename": "Pr.paw.z_13.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:05:48.851\"\\n             element=\"Pr\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Pu.paw.z_16.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Pu\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Ra.paw.z_20.ld1.psl.v1.0.0-high.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"ADC\" date=\"27May2022\" comment=\"\" element=\"Ra\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_cor"
+  },
+  {
+    "filename": "Rb_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Rb\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Re_pbe_v1.2.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Re                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   15.00000000000      Z valence\\n -189.53578563600      Total energy\\n"
+  },
+  {
+    "filename": "Rh_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Rh\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Rn.pbe-dn-kjpaw_psl.1.0.0.UPF",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"ADC\"\\n             date=\"10Oct2014\"\\n             comment=\"\"\\n             element=\"Rn\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n"
+  },
+  {
+    "filename": "Ru_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Ru\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Sc_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Sc\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Se_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Se                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n    6.00000000000      Z valence\\n  -43.34577365200      Total energy\\n"
+  },
+  {
+    "filename": "Si.pbe-n-rrkjus_psl.1.0.0.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "uspp",
+    "snippet": "generated='Generated using \"atomic\" code by A. Dal Corso  v.5.1'\\n             author=\"ADC\"\\n             date=\"10Oct2014\"\\n             comment=\"\"\\n             element=\"Si\"\\n             pseudo_type=\"USPP\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"F\"\\"
+  },
+  {
+    "filename": "Sm.paw.z_16.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:13:33.050\"\\n             element=\"Sm\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Sn_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Sn                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   14.00000000000      Z valence\\n -162.45558243700      Total energy\\n"
+  },
+  {
+    "filename": "Sr_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Sr                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   10.00000000000      Z valence\\n  -69.85620725260      Total energy\\n"
+  },
+  {
+    "filename": "Ta_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Ta                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   13.00000000000      Z valence\\n -141.16638659700      Total energy\\n"
+  },
+  {
+    "filename": "Tb.paw.z_19.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:15:10.673\"\\n             element=\"Tb\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Tc_ONCV_PBE-1.0.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Tc\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Te_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Te                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n    6.00000000000      Z valence\\n  -26.26843990040      Total energy\\n"
+  },
+  {
+    "filename": "Th.paw.z_12.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\"Th\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "Tl_pbe_v1.2.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Tl                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   13.00000000000      Z valence\\n -144.80571223800      Total energy\\n"
+  },
+  {
+    "filename": "Tm.paw.z_23.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:16:39.068\"\\n             element=\"Tm\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "U.paw.z_14.ld1.uni-marburg.v0.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX\" author=\"MS\" date=\"20Mar2023\" comment=\"\" element=\" U\" pseudo_type=\"PAW\" relativistic=\"scalar\" is_ultrasoft=\"true\" is_paw=\"true\" is_coulomb=\"false\" has_so=\"false\" has_wfc=\"true\" has_gipaw=\"true\" paw_as_gipaw=\"true\" core_corr"
+  },
+  {
+    "filename": "W_pbe_v1.2.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  W                    Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   14.00000000000      Z valence\\n -158.26726038400      Total energy\\n"
+  },
+  {
+    "filename": "Xe_ONCV_PBE-1.1.oncvpsp.upf",
+    "pseudo_type_attr": "NC",
+    "inferred": "nc",
+    "snippet": "generated=\"Generated using ONCVPSP code by D. R. Hamann\"\\n       author=\"anonymous\"\\n       date=\"180627\"\\n       comment=\"\"\\n       element=\"Xe\"\\n       pseudo_type=\"NC\"\\n       relativistic=\"scalar\"\\n       is_ultrasoft=\"F\"\\n       is_paw=\"F\"\\n       is_coulomb=\"F\"\\n       has_so=\"F\"\\n       has_w"
+  },
+  {
+    "filename": "Y_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Y                    Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   11.00000000000      Z valence\\n  -87.16175192900      Total energy\\n"
+  },
+  {
+    "filename": "Yb.paw.z_24.atompaw.wentzcovitch.v1.2.upf",
+    "pseudo_type_attr": "PAW",
+    "inferred": "paw",
+    "snippet": "generated=\"Generated using ATOMPAW code\"\\n             author=\"   \"\\n             date=\" 10/31/2022, 09:17:01.712\"\\n             element=\"Yb\"\\n             pseudo_type=\"PAW\"\\n             relativistic=\"scalar\"\\n             is_ultrasoft=\"T\"\\n             is_paw=\"T\"\\n             is_coulomb=\"F\"\\n    "
+  },
+  {
+    "filename": "Zn_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Zn                   Element\\n   US                  Ultrasoft pseudopotential\\n    F                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   20.00000000000      Z valence\\n -461.47730836100      Total energy\\n"
+  },
+  {
+    "filename": "Zr_pbe_v1.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Zr                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\nSLA  PW   PBE  PBE     PBE  Exchange-Correlation functional\\n   12.00000000000      Z valence\\n  -98.61631149800      Total energy\\n"
+  },
+  {
+    "filename": "b_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  B                    Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n    3.00000000000      Z valence\\n   -5.90005357258      Total energy\\n"
+  },
+  {
+    "filename": "be_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Be                   Element\\n   US                  Ultrasoft pseudopotential\\n    F                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n    4.00000000000      Z valence\\n  -27.97245939710      Total energy\\n"
+  },
+  {
+    "filename": "br_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Br                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n    7.00000000000      Z valence\\n  -46.72738976780      Total energy\\n"
+  },
+  {
+    "filename": "cl_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Cl                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n    7.00000000000      Z valence\\n  -33.15821320120      Total energy\\n"
+  },
+  {
+    "filename": "cr_pbe_v1.5.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Cr                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n   14.00000000000      Z valence\\n -174.05857749300      Total energy\\n"
+  },
+  {
+    "filename": "f_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  F                    Element\\n   US                  Ultrasoft pseudopotential\\n    F                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n    7.00000000000      Z valence\\n  -48.32554808770      Total energy\\n"
+  },
+  {
+    "filename": "ge_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Ge                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n   14.00000000000      Z valence\\n -213.32055581800      Total energy\\n"
+  },
+  {
+    "filename": "li_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Li                   Element\\n   US                  Ultrasoft pseudopotential\\n    F                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n    3.00000000000      Z valence\\n  -14.20100306540      Total energy\\n"
+  },
+  {
+    "filename": "mn_pbe_v1.5.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Mn                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n   15.00000000000      Z valence\\n -210.27296793400      Total energy\\n"
+  },
+  {
+    "filename": "na_pbe_v1.5.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Na                   Element\\n   US                  Ultrasoft pseudopotential\\n    F                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n    9.00000000000      Z valence\\n  -95.25124097290      Total energy\\n"
+  },
+  {
+    "filename": "ni_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Ni                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n   18.00000000000      Z valence\\n -340.79676105500      Total energy\\n"
+  },
+  {
+    "filename": "pt_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Pt                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n   16.00000000000      Z valence\\n -210.00500539500      Total energy\\n"
+  },
+  {
+    "filename": "s_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  S                    Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n    6.00000000000      Z valence\\n  -23.79695291080      Total energy\\n"
+  },
+  {
+    "filename": "sb_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Sb                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n   15.00000000000      Z valence\\n -184.03879179700      Total energy\\n"
+  },
+  {
+    "filename": "ti_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  Ti                   Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n   12.00000000000      Z valence\\n -118.04188664000      Total energy\\n"
+  },
+  {
+    "filename": "v_pbe_v1.4.uspp.F.UPF",
+    "pseudo_type_attr": "USPP",
+    "inferred": "us",
+    "snippet": "0                   Version Number\\n  V                    Element\\n   US                  Ultrasoft pseudopotential\\n    T                  Nonlinear Core Correction\\n SLA  PW   PBX  PBC    PBE  Exchange-Correlation functional\\n   13.00000000000      Z valence\\n -144.45716503800      Total energy\\n"
+  }
+]
