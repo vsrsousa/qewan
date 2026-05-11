@@ -10,12 +10,11 @@
     nat = 1
     ntyp = 1
     ecutwfc = 40.0
-    ecutrho = 160.0
+    ecutrho = 320.0
     occupations = 'smearing'
     smearing = 'mv'
     degauss = 0.02
-    nspin = 2
-    starting_magnetization(1) = 0.0
+    nspin = 1
 / 
 &ELECTRONS
     conv_thr = 1.0d-8
@@ -27,7 +26,7 @@ CELL_PARAMETERS angstrom
       1.4340091000     1.4340091000    -1.4340091000
 
 ATOMIC_SPECIES
-Fe Fe.UPF
+Fe Fe.pbe-spn-kjpaw_psl.0.2.1.UPF
 
 ATOMIC_POSITIONS crystal
 Fe    -0.0000000000     0.0000000000     0.0000000000

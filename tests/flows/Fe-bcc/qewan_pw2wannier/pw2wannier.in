@@ -1,9 +1,8 @@
 &INPUTPP
   outdir = './tmp'
   prefix = 'qewan'
-  seedname = 'qewan_dn'
+  seedname = 'Fe_bcc'
   atom_proj = .true.
-  spin_component = 'down'
   write_mmn = .true.
   write_amn = .true.
   write_unk = .false.
