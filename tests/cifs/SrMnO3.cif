@@ -1,0 +1,99 @@
+data_1574066
+loop_
+_publ_author_name
+'Lebeda, Miroslav'
+'Drahokoupil, Jan'
+'Kamba, Stanislav'
+'Svoboda, \<Simon'
+'Smola, Vojt\<ech'
+'Dabrowski, Bogdan'
+'Vl\<c\'ak, Petr'
+_publ_section_title
+;
+ Lattice parameters and bulk modulus of SrTi1-xMnxO3 perovskites: A
+ comparison of exchange-correlation functionals with experimental
+ validation
+;
+_journal_name_full               'Computational Condensed Matter'
+_journal_page_first              e01030
+_journal_paper_doi               10.1016/j.cocom.2025.e01030
+_journal_volume                  43
+_journal_year                    2025
+_chemical_formula_sum            'Mn O3 Sr'
+_chemical_name_common            'O3 Sr Mn'
+_space_group_IT_number           221
+_space_group_name_Hall           '-P 4 2 3'
+_space_group_name_H-M_alt        'P m -3 m'
+_cell_angle_alpha                90.000000
+_cell_angle_beta                 90.000000
+_cell_angle_gamma                90.000000
+_cell_formula_units_Z            3
+_cell_length_a                   3.806000
+_cell_length_b                   3.806000
+_cell_length_c                   3.806000
+_cell_volume                     55.132
+_cod_data_source_file            SrMnO3.cif
+_cod_depositor_comments          'Correcting publication title'
+_cod_original_cell_volume        55.13233062
+_cod_original_formula_sum        'O3 Sr Mn'
+_cod_database_code               1574066
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-x, -y, -z'
+'-x, -y, z'
+'x, y, -z'
+'-x, y, -z'
+'x, -y, z'
+'x, -y, -z'
+'-x, y, z'
+'z, x, y'
+'-z, -x, -y'
+'z, -x, -y'
+'-z, x, y'
+'-z, -x, y'
+'z, x, -y'
+'-z, x, -y'
+'z, -x, y'
+'y, z, x'
+'-y, -z, -x'
+'-y, z, -x'
+'y, -z, x'
+'y, -z, -x'
+'-y, z, x'
+'-y, -z, x'
+'y, z, -x'
+'y, x, -z'
+'-y, -x, z'
+'-y, -x, -z'
+'y, x, z'
+'y, -x, z'
+'-y, x, -z'
+'-y, x, z'
+'y, -x, -z'
+'x, z, -y'
+'-x, -z, y'
+'-x, z, y'
+'x, -z, -y'
+'-x, -z, -y'
+'x, z, y'
+'x, -z, y'
+'-x, z, -y'
+'z, y, -x'
+'-z, -y, x'
+'z, -y, x'
+'-z, y, -x'
+'-z, y, x'
+'z, -y, -x'
+'-z, -y, -x'
+'z, y, x'
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+Sr1 1.0 0.000000 0.000000 0.000000 Sr
+Mn1 1.0 0.500000 0.500000 0.500000 Mn
+O1 1.0 0.000000 0.500000 0.500000 O

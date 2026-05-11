@@ -1,0 +1,45 @@
+
+&CONTROL
+    calculation = 'scf'
+    prefix = 'qewan'
+    outdir = './tmp'
+    pseudo_dir = './pseudos'
+/
+&SYSTEM
+    ibrav = 0
+    nat = 5
+    ntyp = 3
+    ecutwfc = 40.0
+    ecutrho = 160.0
+    occupations = 'smearing'
+    smearing = 'mv'
+    degauss = 0.02
+    nspin = 2
+    starting_magnetization(1) = 0.0
+    starting_magnetization(2) = 0.0
+    starting_magnetization(3) = 0.0
+/ 
+&ELECTRONS
+    conv_thr = 1.0d-8
+/
+
+CELL_PARAMETERS angstrom
+      3.8060000000     0.0000000000     0.0000000000
+      0.0000000000     3.8060000000     0.0000000000
+      0.0000000000     0.0000000000     3.8060000000
+
+ATOMIC_SPECIES
+Sr Sr.UPF
+Mn Mn.UPF
+O O.UPF
+
+ATOMIC_POSITIONS crystal
+Sr     0.0000000000     0.0000000000     0.0000000000
+Mn     0.5000000000     0.5000000000     0.5000000000
+O     0.0000000000     0.5000000000     0.5000000000
+O     0.5000000000     0.0000000000     0.5000000000
+O     0.5000000000     0.5000000000     0.0000000000
+
+K_POINTS automatic
+6 6 6 0 0 0
+

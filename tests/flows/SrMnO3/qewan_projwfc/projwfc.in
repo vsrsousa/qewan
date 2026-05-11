@@ -1,0 +1,8 @@
+&PROJWFC
+    prefix = 'qewan'
+    outdir = './tmp'
+    lsym = .false.
+    lwrite_overlaps = .false.
+    filproj = 'qewan.bands.dat.proj'
+    fillowdin = 'lowdin.txt'
+/

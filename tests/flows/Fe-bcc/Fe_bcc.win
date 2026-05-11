@@ -1,0 +1,23 @@
+# Minimal wannier90.win for Fe bcc test
+
+num_wann = 9
+num_bands = 16
+
+begin projections
+Fe: d
+end projections
+
+begin unit_cell_cart
+  3.430000 0.000000 0.000000
+  0.000000 3.430000 0.000000
+  0.000000 0.000000 3.430000
+end unit_cell_cart
+
+begin atoms_cart
+Fe 0.000000 0.000000 0.000000
+Fe 1.715000 1.715000 1.715000
+end atoms_cart
+
+mp_grid = 6 6 6
+
+guiding_centres = 0

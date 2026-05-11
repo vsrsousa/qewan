@@ -1,0 +1,10 @@
+&input
+  prefix = 'Fe_bcc'
+  outdir = './out'
+  write_unk = .true.
+  write_amn = .true.
+  write_xyz = .false.
+/
+
+# Note: the pw2wannier90.x driver expects to find the `Fe_bcc.mmn`/`.amn`/`.eig` data
+# in `outdir` produced by previous pw.x / nscf / bands runs. Adjust flags above as needed.

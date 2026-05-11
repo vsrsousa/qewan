@@ -6,6 +6,30 @@ from qewan.cluster import write_slurm_script, submit_slurm
 import subprocess
 
 
+def _canonical_wan_dir(requested_outdir: str, explicit_wan: str | None = None) -> str:
+    """Return a canonical directory to store Wannier-related files.
+
+    Rules:
+    - if `explicit_wan` is provided, return it
+    - if the requested_outdir basename contains 'pw2wann' or 'pw2wannier',
+      replace that token with 'wan' (e.g. 'qewan_pw2wann' -> 'qewan_wan')
+    - if requested_outdir already ends with '_wan', return it
+    - otherwise append '_wan' to the basename
+    """
+    if explicit_wan:
+        return explicit_wan
+    parent = os.path.dirname(requested_outdir) or '.'
+    base = os.path.basename(requested_outdir)
+    lb = base.lower()
+    if 'pw2wann' in lb:
+        # preserve original case around the token where possible
+        new_base = base.replace('pw2wann', 'wan').replace('pw2wannier', 'wan')
+        return os.path.join(parent, new_base)
+    if base.endswith('_wan') or base.lower().endswith('wan'):
+        return requested_outdir
+    return os.path.join(parent, base + '_wan')
+
+
 @click.group()
 def cli():
     """qewan CLI: generate QE + Wannier inputs from CIF"""

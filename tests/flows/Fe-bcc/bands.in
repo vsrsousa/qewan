@@ -1,0 +1,36 @@
+&control
+  calculation = 'bands'
+  prefix = 'Fe_bcc'
+  outdir = './out'
+  pseudo_dir = './pseudo'
+/
+&system
+  ibrav = 0
+  nat = 2
+  ntyp = 1
+  ecutwfc = 40.0
+  nbnd = 16
+/
+&electrons
+  conv_thr = 1.0d-8
+/
+
+CELL_PARAMETERS angstrom
+  3.430000 0.000000 0.000000
+  0.000000 3.430000 0.000000
+  0.000000 0.000000 3.430000
+
+ATOMIC_SPECIES
+ Fe 55.845 Fe.pseudo.UPF
+
+ATOMIC_POSITIONS angstrom
+ Fe 0.000000 0.000000 0.000000
+ Fe 1.715000 1.715000 1.715000
+
+K_POINTS crystal_b
+ 5
+  0.0 0.0 0.0 20
+  0.5 -0.5 0.5 20
+  0.25 0.25 0.25 20
+  0.5 0.5 0.5 20
+  0.0 0.0 0.0 0

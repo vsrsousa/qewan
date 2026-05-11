@@ -1,0 +1,9 @@
+&INPUTPP
+  outdir = './tmp'
+  prefix = 'qewan'
+  seedname = 'Fe_bcc'
+  atom_proj = .true.
+  write_mmn = .true.
+  write_amn = .true.
+  write_unk = .false.
+/

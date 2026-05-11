@@ -460,9 +460,10 @@ def generate_kpath(atoms: Atoms, npoints: int = 40) -> str:
         if not uniq or any(abs(k[i] - uniq[-1][i]) > 1e-6 for i in range(3)):
             uniq.append(k)
 
-    lines = [f"K_POINTS crystal_b", str(len(uniq))]
+    lines = ["K_POINTS crystal_b", str(len(uniq))]
+    weight = 1
     for k in uniq:
-        lines.append(f"{k[0]:.8f} {k[1]:.8f} {k[2]:.8f} 1")
+        lines.append(f"{k[0]:.8f} {k[1]:.8f} {k[2]:.8f} {weight}")
     return "\n".join(lines) + "\n"
 
 
