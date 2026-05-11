@@ -3,7 +3,7 @@
     calculation = 'scf'
     prefix = 'qewan'
     outdir = './tmp'
-    pseudo_dir = './pseudos'
+    pseudo_dir = '/home/vinicius/scratch/data/pseudos/SSSP_1.3.0_PBE_efficiency'
 /
 &SYSTEM
     ibrav = 0

@@ -1,0 +1,10 @@
+&INPUTPP
+  outdir = './tmp'
+  prefix = 'qewan'
+  seedname = 'qewan_dn'
+  atom_proj = .true.
+  spin_component = 'down'
+  write_mmn = .true.
+  write_amn = .true.
+  write_unk = .false.
+/

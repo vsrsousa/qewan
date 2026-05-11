@@ -1,6 +1,6 @@
 &PROJWFC
     prefix = 'qewan'
-    outdir = 'tests/flows/Fe-bcc/qewan_nscf'
+    outdir = './tmp'
     lsym = .false.
     lwrite_overlaps = .false.
     filproj = 'qewan.bands.dat.proj'

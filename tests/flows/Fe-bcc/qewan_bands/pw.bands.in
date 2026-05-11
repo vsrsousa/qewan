@@ -3,7 +3,7 @@
     calculation = 'bands'
     prefix = 'qewan'
     outdir = './tmp'
-    pseudo_dir = './pseudos'
+    pseudo_dir = '/home/vinicius/scratch/data/pseudos/SSSP_1.3.0_PBE_efficiency'
 /
 &SYSTEM
     ibrav = 0
@@ -14,7 +14,8 @@
     occupations = 'smearing'
     smearing = 'mv'
     degauss = 0.02
-    nspin = 1
+    nspin = 2
+    starting_magnetization(1) = 0.0
 / 
 &ELECTRONS
     conv_thr = 1.0d-8

@@ -215,8 +215,39 @@ def atoms_to_pw_input(atoms: Atoms, calculation: str = "scf", kpoints: Optional[
     for s in symbols:
         if s not in species:
             species.append(s)
+    # If user didn't provide a mapping, try to detect pseudopotential
+    # filenames from the given `pseudo_dir` when it exists. Fall back to
+    # the default <Element>.UPF naming otherwise.
     if pseudos is None:
-        pseudos = {s: f"{s}.UPF" for s in species}
+        detected = {}
+        try:
+            pd = pseudo_dir or './pseudos'
+            if os.path.isdir(pd):
+                # list candidate UPF files (case-insensitive)
+                files = [f for f in os.listdir(pd) if isinstance(f, str) and f.lower().endswith('.upf')]
+                lfmap = {f.lower(): f for f in files}
+                for s in species:
+                    # prefer exact basename match (e.g. 'Fe.UPF'), then prefix matches
+                    candidates = []
+                    exact = f"{s}.upf"
+                    if exact in lfmap:
+                        candidates = [lfmap[exact]]
+                    else:
+                        # prefix matches like 'Fe_' or 'Fe-' or 'Fe.' or 'Fe'
+                        pref = s.lower()
+                        for lf, orig in lfmap.items():
+                            if lf.startswith(pref + '.') or lf.startswith(pref + '_') or lf.startswith(pref + '-') or lf.startswith(pref):
+                                candidates.append(orig)
+                    if candidates:
+                        # deterministic choice: sort and pick first
+                        candidates.sort()
+                        detected[s] = candidates[0]
+        except Exception:
+            detected = {}
+        if detected:
+            pseudos = {s: detected.get(s, f"{s}.UPF") for s in species}
+        else:
+            pseudos = {s: f"{s}.UPF" for s in species}
 
     # Ensure we write only basenames in ATOMIC_SPECIES (not absolute paths)
     def _pseudo_basename(p):
