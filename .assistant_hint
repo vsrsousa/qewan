@@ -1,0 +1,9 @@
+# Assistant Hint
+
+Activate the project's Python virtual environment before running commands:
+
+    source .venv/bin/activate
+
+Preferred python executable: .venv/bin/python
+
+Note for automated helpers: read this file at session start and activate the venv if present.

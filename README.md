@@ -18,6 +18,11 @@ pip install -r requirements.txt
 python -m pip install -e .
 ```
 
+**Ambiente de desenvolvimento**
+
+- **Ativar venv antes de rodar comandos Python**: execute `source .venv/bin/activate` na raiz do repositório. Isto garante que o intérprete e dependências corretas sejam usados.
+
+
 Basic examples
 
 Note: the project prefers `--workdir` and `--seedname` to produce a reproducible folder layout. If you previously used `--outdir`, it will still work but `--workdir` is recommended.

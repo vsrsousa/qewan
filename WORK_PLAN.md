@@ -30,6 +30,11 @@ Observações técnicas importantes
 
 Plano de trabalho sugerido (itens possíveis a implementar)
 ---------------------------------------------------------
+
+Ação imediata (prioridade máxima)
+--------------------------------
+- Ajustar comportamento de `prefix` para herdar `seedname` em todos os comandos que geram arquivos (`scf`, `nscf`, `bands`, `projwfc`, `pw2wannier`, `wan`) — garantir consistência de nomes e prefixes gerados. Estimativa: 10–20 min.
+
 Ordem proposta por prioridade (curto → longo prazo):
 
 0) Consolidar CLI para `--workdir` + `--seedname` e pastas hardcoded (alta prioridade)
