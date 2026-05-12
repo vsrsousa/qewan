@@ -39,6 +39,8 @@ def cli():
 @cli.command()
 @click.argument('cif', type=click.Path(exists=True))
 @click.option('--outdir', default='run_scf')
+@click.option('--workdir', default=None, help='Top-level workdir to place results under <workdir>/<seedname>/<outdir>')
+@click.option('--seedname', default=None, help='Seedname used to create subfolder under --workdir')
 @click.option('--kpoints', default='6 6 6')
 @click.option('--pseudo-dir', default='./pseudos', help='Pseudo directory string to write in &CONTROL (will be placed verbatim)')
 @click.option('--pseudos', default=None, help="Comma-separated element:pseudo pairs, e.g. 'Gd:Gd.UPF,Co:Co.UPF'. If omitted, defaults to <element>.UPF")
@@ -50,7 +52,7 @@ def cli():
 @click.option('--degauss', default=0.02, type=float, help='Set degauss value in &SYSTEM (e.g. 0.02)')
 @click.option('--ecutrho', default=None, type=float, help='Set ecutrho in &SYSTEM (e.g. 320.0)')
 @click.option('--ecutwfc', default=40.0, type=float, help='Set ecutwfc in &SYSTEM (e.g. 40.0)')
-def run_scf(cif, outdir, kpoints, pseudo_dir, pseudos, conventional_cell, nspin, starting_magnetization, occupations, smearing, degauss, ecutrho, ecutwfc):
+def run_scf(cif, outdir, workdir, seedname, kpoints, pseudo_dir, pseudos, conventional_cell, nspin, starting_magnetization, occupations, smearing, degauss, ecutrho, ecutwfc):
     atoms = read_cif(cif)
     # reduce by symmetry unless user requests conventional cell
     if not conventional_cell:
@@ -110,6 +112,10 @@ def run_scf(cif, outdir, kpoints, pseudo_dir, pseudos, conventional_cell, nspin,
         pass
 
     inp = atoms_to_pw_input(atoms, calculation='scf', kpoints=kpoints, pseudos=pseudos_map, pseudo_dir=pseudo_dir, nspin=nspin, starting_magnetization=smap, occupations=occupations, smearing=smearing, degauss=degauss, ecutrho=ecutrho, ecutwfc=ecutwfc)
+    # allow placing results under workdir/seedname/outdir when requested
+    if workdir and seedname:
+        outdir = os.path.join(workdir, seedname, outdir)
+    os.makedirs(outdir, exist_ok=True)
     path = os.path.join(outdir, 'pw.scf.in')
     write_pw_input(path, inp)
     click.echo(f'Wrote SCF input: {path}')
@@ -118,6 +124,8 @@ def run_scf(cif, outdir, kpoints, pseudo_dir, pseudos, conventional_cell, nspin,
 @cli.command()
 @click.argument('cif', type=click.Path(exists=True))
 @click.option('--outdir', default='run_bands')
+@click.option('--workdir', default=None, help='Top-level workdir to place results under <workdir>/<seedname>/<outdir>')
+@click.option('--seedname', default=None, help='Seedname used to create subfolder under --workdir')
 @click.option('--kpoints', default='6 6 6')
 @click.option('--kpath/--no-kpath', default=False, help='Use seekpath to generate band path')
 @click.option('--npoints', default=40, help='Approx points along total path')
@@ -135,7 +143,7 @@ def run_scf(cif, outdir, kpoints, pseudo_dir, pseudos, conventional_cell, nspin,
 @click.option('--pseudo-dir', default='./pseudos', help='Pseudo directory string to write in &CONTROL (will be placed verbatim)')
 @click.option('--pseudos', default=None, help="Comma-separated element:pseudo pairs, e.g. 'Gd:Gd.UPF,Co:Co.UPF'. If omitted, defaults to <element>.UPF")
 @click.option('--ecutwfc', default=40.0, type=float, help='Set ecutwfc in &SYSTEM (e.g. 40.0)')
-def run_bands(cif, outdir, kpoints, kpath, npoints, slurm, submit, ntasks, time, conventional_cell, nspin, starting_magnetization, occupations, smearing, degauss, ecutrho, pseudo_dir, pseudos, ecutwfc):
+def run_bands(cif, outdir, workdir, seedname, kpoints, kpath, npoints, slurm, submit, ntasks, time, conventional_cell, nspin, starting_magnetization, occupations, smearing, degauss, ecutrho, pseudo_dir, pseudos, ecutwfc):
     atoms = read_cif(cif)
     if not conventional_cell:
         try:
@@ -189,6 +197,9 @@ def run_bands(cif, outdir, kpoints, kpath, npoints, slurm, submit, ntasks, time,
         pass
 
     inp = atoms_to_pw_input(atoms, calculation='bands', kpoints=kpoints, kpath=kpath, npoints=npoints, pseudos=pseudos_map, pseudo_dir=pseudo_dir, nspin=nspin, starting_magnetization=smap, occupations=occupations, smearing=smearing, degauss=degauss, ecutrho=ecutrho, ecutwfc=ecutwfc)
+    if workdir and seedname:
+        outdir = os.path.join(workdir, seedname, outdir)
+    os.makedirs(outdir, exist_ok=True)
     path = os.path.join(outdir, 'pw.bands.in')
     write_pw_input(path, inp)
     click.echo(f'Wrote bands input: {path}')
@@ -204,14 +215,19 @@ def run_bands(cif, outdir, kpoints, kpath, npoints, slurm, submit, ntasks, time,
 @cli.command()
 @click.argument('cif', type=click.Path(exists=True))
 @click.option('--outdir', default='run_projwfc')
+@click.option('--workdir', default=None, help='Top-level workdir to place results under <workdir>/<seedname>/<outdir>')
+@click.option('--seedname', default=None, help='Seedname used to create subfolder under --workdir')
 @click.option('--prefix', default='qewan')
 @click.option('--outdir-pw', default='./tmp')
 @click.option('--lsym/--no-lsym', default=False)
 @click.option('--lwrite-overlaps/--no-lwrite-overlaps', default=False)
 @click.option('--filproj', default=None)
 @click.option('--fillowdin', default='lowdin.txt')
-def run_projwfc(cif, outdir, prefix, outdir_pw, lsym, lwrite_overlaps, filproj, fillowdin):
+def run_projwfc(cif, outdir, workdir, seedname, prefix, outdir_pw, lsym, lwrite_overlaps, filproj, fillowdin):
     # cif argument kept for interface consistency (not used)
+    if workdir and seedname:
+        outdir = os.path.join(workdir, seedname, outdir)
+    os.makedirs(outdir, exist_ok=True)
     path = generate_projwfc_input(outdir, prefix=prefix, outdir_pw=outdir_pw, lsym=lsym, lwrite_overlaps=lwrite_overlaps, filproj=filproj, fillowdin=fillowdin)
     click.echo(f'Wrote projwfc input: {path}')
 
@@ -221,6 +237,7 @@ def run_projwfc(cif, outdir, prefix, outdir_pw, lsym, lwrite_overlaps, filproj, 
 @click.option('--outdir', default='run_pw2wannier')
 @click.option('--prefix', default='qewan')
 @click.option('--seedname', default=None, help='Seedname to use in pw2wannier input (overrides prefix)')
+@click.option('--workdir', default=None, help='Top-level workdir to place results under <workdir>/<seedname>/<outdir>')
 @click.option('--nspin', default=1, type=int, help='Number of spin channels (1 or 2). When 2, generate per-spin inputs')
 @click.option('--nscf-outdir', default='./tmp', help='Path to nscf outdir where pw.x wrote data')
 @click.option('--write-mmn/--no-write-mmn', default=True, help='Set write_mmn in pw2wannier input')
@@ -228,11 +245,15 @@ def run_projwfc(cif, outdir, prefix, outdir_pw, lsym, lwrite_overlaps, filproj, 
 @click.option('--write-unk/--no-write-unk', default=False, help='Set write_unk in pw2wannier input')
 @click.option('--auto-projections/--no-auto-projections', default=True, help='Include atom_proj in pw2wannier input when using automatic projections')
 @click.option('--wan-dir', default=None, type=click.Path(exists=False), help='Directory where Wannier .win files live; pw2wannier inputs/outputs will be written here')
-def run_pw2wannier(cif, outdir, prefix, seedname, nscf_outdir, write_mmn, write_amn, write_unk, auto_projections, nspin, wan_dir):
+def run_pw2wannier(cif, outdir, prefix, seedname, workdir, nscf_outdir, write_mmn, write_amn, write_unk, auto_projections, nspin, wan_dir):
     """Generate a pw2wannier90 input file pointing to the NSCF outdir."""
     # If spin-polarized, generate separate inputs per spin channel in subdirs
     seed = seedname or prefix
+    # determine directory where pw2wannier input should be written
     write_dir = wan_dir or outdir
+    if workdir and seedname and (wan_dir is None):
+        write_dir = os.path.join(workdir, seedname, write_dir)
+    os.makedirs(write_dir, exist_ok=True)
     if int(nspin) == 2:
         for ch in ('up', 'dn'):
             # generator expects 'down' string (not 'dn') for spin_component

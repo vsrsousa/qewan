@@ -32,6 +32,13 @@ Plano de trabalho sugerido (itens possíveis a implementar)
 ---------------------------------------------------------
 Ordem proposta por prioridade (curto → longo prazo):
 
+0) Consolidar CLI para `--workdir` + `--seedname` e pastas hardcoded (alta prioridade)
+   - Objetivo: remover exposição de `--outdir` ao usuário e garantir que o código
+     gere automaticamente a estrutura `<workdir>/<seedname>/{scf,nscf,bands,projwfc,wan}`.
+   - Detalhes: `pw2wannier.in` deve ser escrito na mesma pasta `wan` onde o `.win` fica;
+     quando `workdir`/`seedname` não forem fornecidos usar `workdir='.'` e `seedname='qewan'`.
+   - Estimativa: 30–60 min. Testes: gerar fluxo de exemplo (GdCu) e verificar localizações.
+
 1) Expor `pw2wannier` options em `run_wan` (alta prioridade)
    - Tornar `run_wan` capaz de gerar `pw2wannier.in` diretamente com as mesmas flags: `--seedname`, `--auto-projections/--no-auto-projections`, `--write-mmn`, `--write-amn`, `--write-unk`.
    - Motivo: fluxo end-to-end mais simples (do CIF → .win + pw2wannier).
